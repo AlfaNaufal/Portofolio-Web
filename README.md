@@ -33,7 +33,7 @@ Beberapa poin penting modifikasi styling:
 
 ## 👨‍💻 Tampilan
 
-[Tampilan Web](assets/image/webView.png)
+![Tampilan Web](assets/image/webView.png)
 
 ---
 
