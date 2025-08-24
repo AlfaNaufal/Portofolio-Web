@@ -190,7 +190,7 @@ nav .logo {
     width: 100%;
     border-collapse: collapse;
     line-height: 2;
-    font-size: 15pt;
+    font-size: 14pt;
     margin-top: 1rem;
 }
 
@@ -379,6 +379,10 @@ footer{
         align-items: center;
     }
 
+    .detailBiodata table{
+        font-size: 12pt;
+    }
+
     .biodata img {
         max-width: 80%;
     }
@@ -387,6 +391,10 @@ footer{
         flex-direction: column;
         align-items: center;
         text-align: center;
+    }
+
+    .desc p{
+        font-size: 12pt;
     }
 
     .cardWrap {
@@ -408,5 +416,13 @@ footer{
     .skillList {
         flex-direction: column;
         text-align: center;
+    }
+
+    .keterampilan p{
+        font-size: 15pt;
+    }
+
+    .kemampuan li{
+        font-size: 15pt;
     }
 }
