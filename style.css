@@ -1,0 +1,405 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+}
+
+@font-face {
+    font-family: 'Valorant';
+    src: url(assets/font/Valorant.ttf);
+    
+}
+
+@font-face {
+    font-family: 'Aldrich';
+    src: url(assets/font/Aldrich-Regular.ttf);
+}
+
+body{
+    background-color: #000414;
+    font-family: Valorant;
+    color: white;
+}
+
+header{
+    display: flex;
+    flex-direction: column;
+    position: fixed;
+}
+
+nav{
+    overflow: hidden;
+    position: fixed;
+    display: flex;
+    flex-wrap: nowrap;
+    justify-content: end;
+    align-items: center;
+    top: 0;
+    left: 0;
+    width: 100%;
+    z-index: 1000;
+}
+
+nav img {
+    width: 50px;  
+    height: auto;
+}
+
+nav a{
+    font-size: clamp(12px, 2vw, 25px);
+    color: #FE0940;
+    text-decoration: none;
+    text-align: center;
+    padding: 15px 20px;
+    flex-shrink: 0;
+    gap: 1.5rem;
+}
+
+nav a:hover{
+    background-color: #eaeaea10;
+}
+
+main{
+    margin-top: 60px;
+}
+
+.home{
+    min-height: 100vh;          
+    display: flex;
+    flex-direction: column;     
+    justify-content: center;  
+    align-items: center;         
+    text-align: center;
+    color: white;
+    gap: 1rem;
+}
+
+nav .logo {
+    position: absolute;
+    top: 4rem;      
+    left: 1rem;    
+    width: 60px;
+}
+
+.home .center-content {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 1rem;
+}
+
+.home .title {
+    font-family: Valorant;
+    font-size: 4rem;
+    margin: 0;
+}
+
+.home .website {
+    align-self:flex-start;
+    padding-left: 5%;   
+    color: #FE0940;
+}
+
+.home .profile {
+    align-self: flex-end;
+    padding-right: 5%;     
+}
+
+.home .name {
+    font-size: 2rem;
+    font-family: Aldrich;
+}
+
+.home .social button {
+    border-radius: 20px;
+    background-color: transparent;
+    border: 1px solid #FE0940;
+    padding: 10px 15px;
+    margin-top: 1rem;
+    cursor: pointer;
+    transition: background 0.3s;
+}
+
+.home .social button:hover {
+    background-color: #FE0940;
+}
+
+.home .social img {
+    width: 30px;
+    height: 30px;
+}
+
+.about{
+    min-height: 100vh;
+    padding: 5rem 5%;      
+    display: flex;
+    flex-direction: column;
+    color: white;
+    gap: 3rem;
+}
+
+.pageHeader{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    gap: 2rem;
+    color: white;
+}
+
+.pageHeader img{
+    height: 50px;
+}
+
+.biodata{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: flex-start;
+    gap: 2rem;
+}
+
+.biodata img{
+    max-width: 50%;
+    height: auto;
+    
+}
+
+.right{
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+    gap: 2rem;
+}
+
+.detailBiodata{
+    font-family: Aldrich;
+    border-radius: 5%;
+    text-align: left;
+    width: 100%;
+    position: relative;
+}
+
+.detailBiodata table {
+    width: 100%;
+    border-collapse: collapse;
+    line-height: 2;
+    font-size: 15pt;
+    margin-top: 1rem;
+}
+
+.desc{
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+    height: auto;
+    justify-items: center;
+}
+
+.desc p{
+    text-align: justify;
+    line-height: 1.6;
+    margin-top: 1rem;
+    font-size: 15pt;
+    font-family: Aldrich;
+}
+
+.desc img{
+    display: block;
+    max-width: 200px;
+    width: 100%;
+    height: auto;
+    margin: 0 auto;
+}
+
+
+.left{
+    flex: 1;
+    justify-items: center;
+}
+
+.left img{
+    max-width: auto;
+    height: 50%;
+    box-shadow: 2rem 2rem #50505050;
+    display: block;
+}
+
+.riwayatPendidikan{
+    padding: 5rem 5%; 
+    display: flex;
+    flex-direction: column;
+    gap: 4rem 1rem;
+}
+
+.riwayatPendidikan .pageHeader{
+    margin-top: 4rem;
+}
+
+.cardWrap{
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.card{
+    font-family: Aldrich;
+}
+
+.card img{
+    display: block;
+    width: 250px;
+}
+
+.container{
+    margin-top: 1rem;
+}
+
+.skillList{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    font-family: Aldrich; 
+}
+
+.keterampilan p{
+    margin-top: 2rem;
+    margin-bottom: 3rem;
+    font-size: 20pt;
+}
+
+ul{
+    list-style-type:"›> ";
+}
+
+.kemampuan li{
+    font-size: 20pt;
+}
+
+.project{
+    padding: 5rem 5%; 
+}
+
+.project p{
+    text-align: center;
+    margin: 1rem;
+}
+
+.listProject{
+    display: flex;
+    text-align: center;
+    justify-content: space-between;
+    align-items: flex-start;
+    flex-wrap: nowrap;
+    gap: 20px;
+}
+
+.cardProject{
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    font-family: Aldrich;
+}
+
+.cardProject img{
+    max-height: 300px;
+    width: auto;
+    object-fit: contain;
+}
+
+.contact{
+    height: 90vh;
+    margin-top: 5rem;
+    padding: 5rem 5%; 
+}
+
+.contact p{
+    text-align: center;
+    margin: 1rem;
+}
+
+.contact .social{
+    display: flex;
+    justify-content: center;
+    justify-items: center;
+    gap: 20px
+}
+
+.contact .social button {
+    border-radius: 20px;
+    background-color: transparent;
+    border: 1px solid #FE0940;
+    padding: 10px 15px;
+    margin-top: 1rem;
+    cursor: pointer;
+    transition: background 0.3s;
+}
+
+.contact .social button:hover {
+    background-color: #FE0940;
+}
+
+.contact .social img {
+    width: 30px;
+    height: 30px;
+}
+
+footer{
+    position: static;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-family: Aldrich;
+    left: 0;
+    bottom: 0;
+    height: 5vh;
+    width: 100%;
+    background-color: #FE0940;
+    color: white;
+    text-align: center;
+}
+
+@media (max-width: 768px) {
+
+    nav {
+        flex-direction: row;
+        justify-content: center; 
+        gap: 1rem;  
+    }
+
+    .biodata {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .biodata img {
+        max-width: 80%;
+    }
+
+    .desc {
+        flex-direction: column;
+        align-items: center;
+        text-align: center;
+    }
+
+    .cardWrap {
+        flex-direction: column;
+        align-items: center;
+        gap: 2rem;
+    }
+
+    .listProject {
+        flex-direction: column;
+        align-items: center;
+        gap: 2rem;
+    }
+
+    .cardProject img {
+        max-width: 80%;
+    }
+
+    .skillList {
+        flex-direction: column;
+        text-align: center;
+    }
+}
