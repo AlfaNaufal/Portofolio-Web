@@ -109,6 +109,13 @@ nav .logo {
     font-family: Aldrich;
 }
 
+.home .social{
+    display: flex;
+    justify-content: center;
+    justify-items: center;
+    gap: 20px
+}
+
 .home .social button {
     border-radius: 20px;
     background-color: transparent;
