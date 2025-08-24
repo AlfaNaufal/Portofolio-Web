@@ -1,4 +1,5 @@
 # 🌐 Responsive Portofolio Website - Muhammad Naufal Alfarizky
+
 ## Mission 1
 
 ## 📌 Deskripsi Proyek
@@ -42,3 +43,10 @@ Beberapa poin penting modifikasi styling:
 🔗 [Klik di sini untuk melihat website](https://alfanaufal.github.io/Portofolio-Web/)
 
 ---
+
+## ✨Inspired from
+
+🔗 [Inspirasi Desain](https://www.figma.com/community/file/1288804459741954497)
+
+
+
